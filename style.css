@@ -49,7 +49,6 @@ body {
   color: #fff;
   font-size: 1.3rem;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 .header__menu-btn:hover,
