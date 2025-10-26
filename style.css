@@ -213,6 +213,7 @@ body {
   border: 1px solid #f9f9f9;
   transition: all 0.3s ease;
   min-width: 200px;
+  color: #7E7E82;
 }
 
 
@@ -290,7 +291,7 @@ body {
      width: 100%;
 }
 
-.content__
+
 
 
 
@@ -452,7 +453,6 @@ body {
   }
 
   .slider-track {
-    /* Allow items to wrap to the next line */
     flex-wrap: wrap;
     overflow-x: hidden;
   }
