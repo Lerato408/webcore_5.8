@@ -190,7 +190,7 @@ body {
 
 /* --- Track (the sliding row) --- */
 .content__slider-track {
-  display: grid;
+ display: grid;
   gap: 10px;
   grid-auto-flow: column;
   grid-auto-columns: minmax(250px, 1fr);
@@ -208,8 +208,9 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 1.3rem;
-  padding:8px 20px;
-  border-radius:6px;
+  padding: 8px;
+  padding-right: 16px ;
+  border-radius:6px ;
   border: 1px solid #f9f9f9;
   transition: all 0.3s ease;
   min-width: 200px;
@@ -237,7 +238,7 @@ body {
 .content__slider-item.selected {
   background-color: white;
   border-color: rgb(72, 254, 245);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* --- Desktop view (show all items in a row) --- */
@@ -452,9 +453,11 @@ body {
     display: flex;
   }
 
-  .slider-track {
+  .content__slider-track {
+    display:flex;
     flex-wrap: wrap;
-    overflow-x: hidden;
+    gap: 15px;
+    overflow-x: visible;
   }
   
 }
