@@ -244,7 +244,7 @@ body {
 /* --- Desktop view (show all items in a row) --- */
 @media (min-width: 504px) {
   .content__slider-track {
-    overflow-x: visible;
+    overflow-x: auto;
   }
 
   .content__slider-item {
@@ -291,11 +291,6 @@ body {
      flex-direction: column;
      width: 100%;
 }
-
-
-
-
-
 
 .content__toggle {
     display: none;
@@ -389,7 +384,7 @@ body {
   }
 
   .content__slider-track {
-    gap: 8px;
+    overflow-x: auto;
   }
   
   .content__slider-item {
